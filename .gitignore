@@ -1,0 +1,32 @@
+# ===== 实验脚本（论文复现用，本地保留，不入库）=====
+*.sh
+Prelude_main/Run/bash_sen*
+Prelude_main/Run/bash_ext*
+Prelude_main/Run/ext*
+Prelude_main/Run/*stream_sim*
+Prelude_main/Run/threshold_search.py
+Prelude_main/Run/first_decision_analysis.py
+Prelude_main/Run/selective_curve_export.py
+Prelude_main/Run/merge_stream_results.py
+Prelude_main/Run/profile_stream_timing.py
+
+# ===== 内部文档（不入库）=====
+需求文档.md
+Prelude_main/Run/script_doc.md
+运行记录.md
+Prelude_main/重构目标.md
+
+# ===== IDE / 缓存 =====
+.agents/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.log
+
+# ===== 数据与结果 =====
+ckp_main/
+dataset/
+npz_dataset/
+defense/results/
+/Prelude_main/aggregate_results/

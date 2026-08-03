@@ -1,0 +1,17 @@
+# Core dependencies for Prelude.
+# Install PyTorch first (with the CUDA index), e.g.:
+#   pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118
+# Then install the rest:
+#   pip install -r requirements.txt
+
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scipy
+tqdm
+einops
+timm
+tabulate
+torchinfo
+matplotlib
+natsort
